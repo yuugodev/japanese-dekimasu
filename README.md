@@ -36,9 +36,7 @@ JS-001
 
 ## Configurar Javascript no VSCode:
 
-- Emmet
-- Auto Close Tag
-- Live Server
+- Tudo OK
 
 ## Criar as seguintes páginas:
 
