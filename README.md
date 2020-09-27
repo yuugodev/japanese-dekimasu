@@ -7,7 +7,6 @@ Ter um projeto no ar para incluirmos nos nossos portifólios.
 
 ## O que ver hoje:
 
-- Start de um projeto no github.
 - Fazer um landing page, uma aula, um quiz e conectar a api do jisho.
 - Trabalhar com git, fazer pelo menos 4 commits e 4 pull requests.
 - Fazer deploy do projeto usando Netlify
