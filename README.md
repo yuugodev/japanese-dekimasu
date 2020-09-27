@@ -49,9 +49,9 @@ JS-001
 
 ## Como será feita a estilização da página?
 
-- Bootstrap / MaterializeCSS / CSS Puro
-- Flexbox / Grid Layout
-- Mobile First??
+- CSS Puro
+- Flexbox
+- NO Mobile First
 
 ## Detalhamento dos componentes:
 
