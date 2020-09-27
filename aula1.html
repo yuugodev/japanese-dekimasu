@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .texto-japones {
+            font-size: 20px;
+        }
+        .texto-portugues {
+            font-size: 20px;
+        }
+    </style>
+    <title>Japanese Dekimasu</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <h2>Aula 1 - 新しい友達</h2>
+        <ul>
+            <li><a href="#text">Texto</a></li>
+            <li><a href="#greetings">Cumprimentos</a></li>
+            <li><a href="#grammar">Gramática</a></li>
+        </ul>
+    </header>
+    
+    <section id="text">
+        <h3>Texto</h3>
+    <pre class="texto-japones">
+マリアさん：すみません。今何時です？
+鈴木さん：十二時はんです。
+マリアさん：ありがとうごさうます。
+鈴木さん：いいえ。
+鈴木さん：あの、留学生ですか？
+マリア：ええ。アリゾナ大学の学生です。
+鈴木さん：そうですか。先行研究は何ですか？
+マリア：日本語です。今二年生です。
+        </pre>
+    </section>
+    <p>
+        <pre class="texto-portugues">
+Maria: Com licença. Que horas são?
+Suzuki: É meio-dia e meia.
+Maria: Obrigada.
+Suzuki: De nada.
+Suzuki: Hm. Você é intercambista?
+Maria: Sim. Estudo na Universidade do arizona.
+Suzuki: Qual curso voce esta fazendo?
+Maria: Letras em japones. Estou no segundo ano.
+        </pre>
+    </p>
+
+    <section id="greetings">
+        <h3>Cumprimentos</h3>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos itaque optio, illo libero reiciendis veniam? Enim inventore praesentium unde accusamus veritatis expedita a ipsum velit, ipsam libero delectus sunt blanditiis!
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam illum asperiores possimus veniam et quaerat pariatur rerum libero cumque a, labore accusamus, voluptates quod perferendis distinctio ab dolore voluptatem nesciunt consectetur obcaecati itaque iusto. Alias porro vero error vitae ipsum temporibus inventore, quo officia ex! Animi ullam velit illum magnam.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam illum asperiores possimus veniam et quaerat pariatur rerum libero cumque a, labore accusamus, voluptates quod perferendis distinctio ab dolore voluptatem nesciunt consectetur obcaecati itaque iusto. Alias porro vero error vitae ipsum temporibus inventore, quo officia ex! Animi ullam velit illum magnam.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam illum asperiores possimus veniam et quaerat pariatur rerum libero cumque a, labore accusamus, voluptates quod perferendis distinctio ab dolore voluptatem nesciunt consectetur obcaecati itaque iusto. Alias porro vero error vitae ipsum temporibus inventore, quo officia ex! Animi ullam velit illum magnam.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam illum asperiores possimus veniam et quaerat pariatur rerum libero cumque a, labore accusamus, voluptates quod perferendis distinctio ab dolore voluptatem nesciunt consectetur obcaecati itaque iusto. Alias porro vero error vitae ipsum temporibus inventore, quo officia ex! Animi ullam velit illum magnam.
+        </p>
+    </section>
+    <section id="grammar">
+        <h3>Gramática</h3>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam illum asperiores possimus veniam et quaerat pariatur rerum libero cumque a, labore accusamus, voluptates quod perferendis distinctio ab dolore voluptatem nesciunt consectetur obcaecati itaque iusto. Alias porro vero error vitae ipsum temporibus inventore, quo officia ex! Animi ullam velit illum magnam.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam illum asperiores possimus veniam et quaerat pariatur rerum libero cumque a, labore accusamus, voluptates quod perferendis distinctio ab dolore voluptatem nesciunt consectetur obcaecati itaque iusto. Alias porro vero error vitae ipsum temporibus inventore, quo officia ex! Animi ullam velit illum magnam.
+        </p>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquam illum asperiores possimus veniam et quaerat pariatur rerum libero cumque a, labore accusamus, voluptates quod perferendis distinctio ab dolore voluptatem nesciunt consectetur obcaecati itaque iusto. Alias porro vero error vitae ipsum temporibus inventore, quo officia ex! Animi ullam velit illum magnam.
+        </p>
+    </section>
+    <!-- Footer -->
+    <script>        
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+    </script>
+</body>
+</html>
